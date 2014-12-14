@@ -1,2 +1,3 @@
 zh-TW:
-  iat_menu_label: "IAT"
+    iat_menu_label: "IAT"
+    permission_view_iat: "View IAT"
