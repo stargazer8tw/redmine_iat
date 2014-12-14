@@ -9,7 +9,8 @@ For Redmine 2.6.x ~
 
     $ cd {REDMINE_ROOT}
     $ git clone https://github.com/stargazer8tw/redmine_chartkick.git plugins/redmine_chartkick
-    $ rake redmine:plugins:migrate RAILS_ENV=production
+    $ bundle install --without development test
+    $ rake redmine:plugins:migrate NAME=redmine_chartkick RAILS_ENV=production
 
 Restart Redmine
 
