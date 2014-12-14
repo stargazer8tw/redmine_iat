@@ -1,7 +1,7 @@
-Redmine Chartkick
+Redmine IAT
 =================
 
-Redmine Chart Plugin integrate with [Chartkick][1]
+Redmine Issue Tool Plugin integrate with [Chartkick][1], and [d3-rails][3]
 
 ## Installation
 
@@ -59,3 +59,4 @@ SOFTWARE.
 [1]:http://ankane.github.io/chartkick/
 [2]:https://github.com/ankane/chartkick
 [3]:https://github.com/iblue/d3-rails
+[4]:http://d3js.org/
