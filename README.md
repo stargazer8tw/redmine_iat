@@ -8,15 +8,15 @@ Redmine Issue Tool Plugin integrate with [Chartkick][1], and [d3-rails][3]
 For Redmine 2.6.x ~
 
     $ cd {REDMINE_ROOT}
-    $ git clone https://github.com/stargazer8tw/redmine_chartkick.git plugins/redmine_chartkick
+    $ git clone https://github.com/stargazer8tw/redmine_iat.git plugins/redmine_iat
     $ bundle install --without development test
-    $ rake redmine:plugins:migrate NAME=redmine_chartkick RAILS_ENV=production
+    $ rake redmine:plugins:migrate NAME=redmine_iat RAILS_ENV=production
 
 Restart Redmine
 
 ## Uninstall
 
-    $ rake redmine:plugins:migrate NAME=redmine_chartkick VERSION=0 RAILS_ENV=production
+    $ rake redmine:plugins:migrate NAME=redmine_iat VERSION=0 RAILS_ENV=production
 
 Restart Redmine
     
