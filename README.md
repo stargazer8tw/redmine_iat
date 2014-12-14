@@ -56,5 +56,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ---
-[1]:http://chartkick.com
+[1]:http://ankane.github.io/chartkick/
 [2]:https://github.com/ankane/chartkick
+[3]:https://github.com/iblue/d3-rails
