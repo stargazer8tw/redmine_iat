@@ -8,7 +8,7 @@ Redmine Chart Plugin integrate with [Chartkick][1]
 For Redmine 2.6.x ~
 
     $ cd {REDMINE_ROOT}
-    $ git clone git@github.com:stargazer8tw/redmine_chartkick.git plugins/redmine_chartkick
+    $ git clone https://github.com/stargazer8tw/redmine_chartkick.git plugins/redmine_chartkick
     $ rake redmine:plugins:migrate RAILS_ENV=production
 
 Restart Redmine
