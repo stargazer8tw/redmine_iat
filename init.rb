@@ -1,8 +1,8 @@
 Redmine::Plugin.register :redmine_chartkick do
   name 'Redmine Chartkick plugin'
-  author 'Author name'
-  description 'This is a plugin for Redmine'
+  author 'Michael Lin'
+  description 'This is a chart plugin for Redmine using chartkick'
   version '0.0.1'
-  url 'http://example.com/path/to/plugin'
-  author_url 'http://example.com/about'
+  url 'https://github.com/stargazer8tw/redmine_chartkick'
+  author_url 'https://github.com/stargazer8tw'
 end
