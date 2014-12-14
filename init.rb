@@ -17,8 +17,8 @@ Redmine::Plugin.register :redmine_iat do
     requires_redmine :version_or_higher => '2.6.0'
 
     # plugin permssion
-    permission :ck, { :ck => [:index, :vote] }, :public => true
+    #permission :iat, { :ck => [:index, :vote] }, :public => true
 
     # plugin menu
-    menu :project_menu, :ck, { :controller => 'ck', :action => 'index' }, :caption => :ck_menu_label
+    menu :project_menu, :iat, { :controller => 'iat', :action => 'index' }, :caption => :iat_menu_label
 end
