@@ -1,7 +1,14 @@
 class IatController < ApplicationController
     unloadable
 
-    before_filter :find_project, :authorize, :only => :index
+    menu_item :iat
+
+    before_filter :find_project
+    before_filter :authorize, :only => [:index]
+
+    def controller_name
+        "iat"
+    end
 
     def index
         @iat = Iat.find(:all)# @project.iat
