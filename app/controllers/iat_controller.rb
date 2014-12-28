@@ -1,7 +1,7 @@
 class IatController < ApplicationController
     unloadable
 
-    menu_item :iat
+#    menu_item :iat
 
     # before_filter :find_project
     # before_filter :authorize, :only => [:index]
