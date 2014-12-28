@@ -6,7 +6,7 @@ require 'redmine'
 #    require_dependency 'time_entry'
 #end
 
-Redmine::Plugin.register :redmine_iat do
+Redmine::Plugin.register :iat do
     name 'Redmine IAT plugin'
     author 'Michael Lin'
     description 'This is a chart plugin for Redmine'
@@ -16,14 +16,14 @@ Redmine::Plugin.register :redmine_iat do
 
     requires_redmine :version_or_higher => '2.6.0'
 
-#    project_module :iat do
-#        permission :view_iat, :iat => :index
-#    end
+    project_module :iat do
+        permission :view_iat, {:iat => [:index]}
+    end
 
     # all permssion
-    permission :view_iat, :iat => :index
+#    permission :view_iat, :iat => :index
     # permission :iat, { :iat => [:index] }, :public => true
 
     # plugin menu
-    menu :project_menu, :iat, { :controller => 'iat', :action => 'index' }, :caption => 'Chart',  :last => true, :param => :project_id
+    menu :project_menu, :iat, { :controller => 'iat', :action => :index }, :caption => :iat_menu_label,  :last => true, :param => :project_id
 end
