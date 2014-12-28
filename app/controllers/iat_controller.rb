@@ -11,7 +11,7 @@ class IatController < ApplicationController
     end
 
     def index
-        @iat = Iat.find(:all)# @project.iat
+#        @iat = Iat.find(:all)# @project.iat
     end
 
     def find_project
