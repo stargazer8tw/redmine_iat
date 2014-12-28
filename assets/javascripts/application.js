@@ -1,1 +1,3 @@
-//= require d3
+require([], function(){
+  window.alert('Hello require.js');
+});
