@@ -1,4 +1,4 @@
 # English strings go here for Rails i18n
 en-GB:
-    iat_menu_label: "IAT"
-    permission_view_iat: "View IAT"
+    iat_menu_label: "Charts"
+    permission_view_iat: "View Charts"
