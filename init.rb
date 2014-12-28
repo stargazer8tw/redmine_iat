@@ -25,5 +25,5 @@ Redmine::Plugin.register :redmine_iat do
     # permission :iat, { :iat => [:index] }, :public => true
 
     # plugin menu
-    menu :project_menu, :iat, { :controller => 'iat', :action => 'index' }, :caption => :iat_menu_label, :after => :activity, :param => :project_id
+    menu :project_menu, :iat, { :controller => 'iat', :action => 'index' }, :caption => :iat_menu_label, :param => :project_id
 end

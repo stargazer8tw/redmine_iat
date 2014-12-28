@@ -4,7 +4,6 @@ class IatController < ApplicationController
     before_filter :find_project, :authorize, :only => :index
 
     def index
-
         @iat = Iat.find(:all)# @project.iat
     end
 
