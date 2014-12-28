@@ -11,10 +11,11 @@ class IatController < ApplicationController
     end
 
     def index
-        @iat = Iat.find(:all)# @project.iat
+        @project = Project.find(params[:id])
+#        @iat = Iat.find(:all)# @project.iat
     end
 
-    def find_project
-        @project = Project.find(params[:project_id])
-    end
+#    def find_project
+#        @project = Project.find(params[:project_id])
+#    end
 end
