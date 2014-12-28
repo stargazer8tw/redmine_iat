@@ -12,7 +12,7 @@ class IatController < ApplicationController
 
     def index
         @project = Project.find(params[:id])
-        session[:project_id]=params[:id]
+        session[:project_id] = params[:id]
 #        @iat = Iat.find(:all)# @project.iat
     end
 
