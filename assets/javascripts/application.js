@@ -4,14 +4,14 @@ require.config({
         'data.templates': '../templates',
         'data.images': '../img',
         // javascript library
-        jquery: 'jquery/jquery-2.1.3.min',
-        text: 'require/text',
-        underscore: 'underscore/underscore-min',
-        backbone: 'backbone/backbone-min',
+        jquery: 'lib/jquery/jquery-2.1.3.min',
+        text: 'lib/require/text',
+        underscore: 'lib/underscore/underscore-min',
+        backbone: 'lib/backbone/backbone-min',
         // none amd compliance
-        d3: 'd3/d3.min',
-        nvd3: 'nvd3/nv.d3.min',
-        ink: 'ink/ink.min'
+        d3: 'lib/d3/d3.min',
+        nvd3: 'lib/nvd3/nv.d3.min',
+        ink: 'lib/ink/ink.min'
     },
     shim: {
         nvd3: {
@@ -20,4 +20,22 @@ require.config({
         }
     },
     enforceDefine: true
+});
+
+define("d3.global", ["d3"], function(_) {
+      d3 = _;
+});
+
+define([
+    'router'
+], function (Router) {
+    "use strict";
+    var initialize = function () {
+        // Pass in our Router module and call it's initialize function
+        Router.initialize();
+    };
+
+    return {
+        initialize: initialize
+    };
 });
