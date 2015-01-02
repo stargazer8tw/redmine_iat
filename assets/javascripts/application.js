@@ -1,6 +1,6 @@
 require.config({
     paths: {
-        'data.content': 'content',
+        'data.content': '../content',
 //        'data.templates': '../templates',
 //        'data.images': '../img',
         // javascript library
