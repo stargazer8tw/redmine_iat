@@ -4,7 +4,7 @@ define([
     'backbone',
     //'models/blog/BlogModel',
 //    'text!data.templates/default.html',
-    'text!data.content/demo/demo.html',
+    'text!data.content/demo.html',
 //    'text!data.content/demo/demo-sidebar.html',
     'd3',
     'nvd3'
