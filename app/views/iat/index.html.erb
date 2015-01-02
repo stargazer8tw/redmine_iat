@@ -1,8 +1,8 @@
 <% content_for :header_tags do %>
 <% html_title(l(:iat_menu_label)) -%>
 <%= javascript_include_tag "application", :plugin => 'redmine_iat' %>
-<%= javascript_include_tag "d3.min", :plugin => 'redmine_iat/d3' %>
-<%= javascript_include_tag "nv.d3.min", :plugin => 'redmine_iat/nvd3' %>
+<%= javascript_include_tag "d3", :plugin => 'redmine_iat' %>
+<%= javascript_include_tag "nv", :plugin => 'redmine_iat' %>
 <% end %>
 <h1><%= l(:iat_menu_label) %></h1>
 <h2>hello world</h2>
