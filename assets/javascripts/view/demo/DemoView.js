@@ -11,7 +11,7 @@ define([
 ], function ($, _, Backbone, demo) {
     "use strict";
     var DemoView = Backbone.View.extend({
-        el: $("#iat"),
+        el: $("#main"),
         render: function () {
             //$('.nav li').removeClass('active');
             //$('.nav li a[href="' + window.location.hash + '"]').parent().addClass('active');
