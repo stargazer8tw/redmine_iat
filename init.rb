@@ -6,7 +6,7 @@ require 'redmine'
 #    require_dependency 'time_entry'
 #end
 
-Redmine::Plugin.register :redmine_iat do
+Redmine::Plugin.register :iat do
     name 'Redmine IAT plugin'
     author 'Michael Lin'
     description 'This is a chart plugin for Redmine'
