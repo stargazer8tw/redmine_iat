@@ -2,7 +2,7 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'views/demo/DemoView'
+    'view/demo/DemoView'
 ], function ($, _, Backbone, DemoView) {
     //    "use strict";
     var AppRouter = Backbone.Router.extend({
