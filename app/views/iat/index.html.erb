@@ -1,14 +1,15 @@
 <% content_for :header_tags do %>
 <% html_title(l(:iat_menu_label)) -%>
-<%= stylesheet_link_tag "ink/ink.min.css", :plugin => 'redmine_iat' %>
-<%= stylesheet_link_tag "nvd3/nv.d3.min.css", :plugin => 'redmine_iat' %>
 <%= javascript_include_tag "lib/require/require.js", :plugin => 'redmine_iat', :'data-main' => '../../plugin_assets/redmine_iat/javascripts/application' %>
+<style>
+	div#iat {
+            padding: 10px;
+        }
+</style>
 <% end %>
 <h1><%= l(:iat_menu_label) %></h1>
-<div class="ink-grid">
     <div id="iat">
         <div id="main">
-            <p>default template page</p>
+            <p>main space</p>
         </div>
     </div>
-</div>
