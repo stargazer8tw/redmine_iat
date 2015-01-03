@@ -11,7 +11,6 @@ define([
             $('nav li').removeClass('active');
             $('nav li a[href="#"]').parent().addClass('active');
             $('#iat_chartmain').html(summary);
-
         }
 
     });
