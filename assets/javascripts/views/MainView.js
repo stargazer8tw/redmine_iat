@@ -6,7 +6,7 @@ define([
 ], function ($, _, Backbone, main) {
     "use strict";
     var MainView = Backbone.View.extend({
-        el: $("#main"),
+        el: $("#iat_main"),
 
         render: function () {
             this.$el.html(main);

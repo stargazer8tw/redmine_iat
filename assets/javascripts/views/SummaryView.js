@@ -10,7 +10,7 @@ define([
         render: function () {
             $('nav li').removeClass('active');
             $('nav li a[href="#"]').parent().addClass('active');
-            $('#chartmain').html(summary);
+            $('#iat_chartmain').html(summary);
 
         }
 
