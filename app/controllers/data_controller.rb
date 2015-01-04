@@ -1,5 +1,5 @@
-class D3DataController < ApplicationController
-    menu_item :iat
+class DataController < ApplicationController
+#    menu_item :iat
     before_filter :find_project, :authorize, :find_issue_statuses
 
 #  def issue_report

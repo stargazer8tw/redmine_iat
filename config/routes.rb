@@ -4,4 +4,4 @@
 get '/iat', :to => 'iat#index'
 #get 'iat/:id', :to => 'iat#index'
 get '/projects/:project_id/iat', :to => 'iat#index'
-get '/projects/:project_id/iat/d3data', :to => 'd3data#issues_subproject'
+get '/projects/:project_id/iat/data', :to => 'data#issues_subproject'
